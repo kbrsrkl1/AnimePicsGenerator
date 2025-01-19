@@ -35,6 +35,7 @@ body{
 .btn:disabled{
     background-color: gray;
     cursor: pointer;
+    pointer-events: none;  
 }
 
 .anime-img{
@@ -48,10 +49,10 @@ body{
     margin: 20px;
     background-color: green;
     color: aliceblue;
-    padding: 10px;
+    padding: 12px;
     border-radius: 6px;
-    font-size: 7px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 800;
 }
 
 .anime-container{
